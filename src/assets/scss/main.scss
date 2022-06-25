@@ -15,10 +15,14 @@
 @import "@/../node_modules/bootstrap/scss/bootstrap.scss";
 
 // 5. Add additional custom code here
+html, body {
+  width: 100%;
+  height: 100%;
+}
 body {
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  position: relative;
 }
 h1,
 h2,
@@ -26,16 +30,16 @@ h3,
 h4,
 h5,
 h6 {
-    color: $gray-800;
+  color: $gray-800;
 }
 
 .user-skill {
-    display: inline-block;
-    padding: 2px 12px;
-    margin: 3px;
-    border: 1px solid $gray-500;
-    color: $gray-700;
-    border-radius: 30px;
+  display: inline-block;
+  padding: 2px 12px;
+  margin: 3px;
+  border: 1px solid $gray-500;
+  color: $gray-700;
+  border-radius: 30px;
 }
 
 // Transitions
