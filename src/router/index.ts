@@ -13,6 +13,12 @@ const router = createRouter({
       name: 'home',
       component: loadComponent('HomeView'),
     },
+    {
+      // All routes need to be above NotFound route
+      path: '/:pathMatch(.*)*',
+      name: 'notfound',
+      component: loadComponent('NotFound'),
+    },
   ],
 })
 

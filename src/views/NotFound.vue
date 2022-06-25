@@ -1,12 +1,15 @@
 <template>
   <LayoutWrapper>
-    <HomeDashboard />
+    <NotFound />
   </LayoutWrapper>
 </template>
 
 <script setup lang="ts">
+import NotFound from '@/components/NotFound.vue'
 import LayoutWrapper from '@/components/layout/LayoutWrapper.vue'
-import HomeDashboard from '@/components/HomeDashboard.vue'
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+.not-found {
+}
+</style>
