@@ -1,0 +1,7 @@
+{
+  "navigation_menu": {
+    "btnSignIn": "Autentificare",
+    "btnRegister": "Inregistrare",
+    "btnSignOut": "Deautentificare"
+  }
+}
